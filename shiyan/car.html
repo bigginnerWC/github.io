@@ -1,0 +1,75 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			style type="text/css">
+				*{
+					margin:0;
+					padding:0;
+					
+				}
+				body{
+					padding-top: 25px;
+				}
+				.car{
+					padding-top: 20px;
+					margin: 0 auto;
+					width: 1300px;
+					height: 610px;
+					border: 4px solid #000000;
+					border-radius: 20px;
+					position: relative;
+					z-index: 1;
+					background-color: red;
+				}
+				.car1{
+					padding-top: 12px;
+					margin: 0 auto;
+					width: 1230px;
+					height: 570px;
+					border: 4px solid #000000;
+					border-style:dashed;
+					border-radius: 20px;
+				}
+				.car2{
+					margin: 0 auto;
+					width: 1160px;
+					height: 540px;
+					border: 4px solid #000000;
+					border-radius: 20px;
+					background-color: white;
+				}
+				img{
+					width: 40px;
+					height: 40px;
+					position: relative;
+				}
+				.carImg{
+					padding-left: 125px;
+					animation: myfirst 12s;
+					position: absolute;
+					z-index: 2;
+				}
+				
+				@keyframes myfirst{  
+					0%{left:0px; top:30px;}         
+					25% {left:1240px; top:30px;}         
+					50% {left:1240px; top:620px;}         
+					75% {left:0px; top:620px;}        
+					100% {left:0px; top:30px;}     
+				}
+		</style>
+	</head>
+	<body>
+		<img src="img/image.png" class="carImg">
+		<div class="car">
+			<div class="car1">
+				<div class="car2">
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>
